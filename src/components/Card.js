@@ -21,6 +21,7 @@ const Card = ({ avatar, name, title, text, quotation = false, ...rest }) => {
           right={{ base: 5, sm: 20 }}
           src={quotationImg}
           zIndex={1}
+          alt="quotation mark"
         />
       )}
       <VStack px={7} py={3} spacing={4}>
